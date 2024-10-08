@@ -388,5 +388,29 @@ body.dark-mode nav a:hover::after {
     p {
         font-size: 14px;
     }
+    .flex-container {
+        margin: 20px;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .flex-container2 {
+        margin: 0 auto; /* Ensures it's centered horizontally */
+        padding: 20px;
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Center content horizontally */
+    }
+    .f2osa2 {
+        flex-direction: column; /* Stack items vertically on small screens */
+        justify-content: center; /* Center them vertically */
+        align-items: center; /* Center them horizontally */
+    }
+    .div1, .div2 {
+        margin: 10px; /* Reduce margins to avoid extra spacing */
+        padding: 10px;
+    }
+    .minidiv1, .minidiv2, .minidiv3, .minidiv4 {
+        padding: 20px;
+        margin: 10px;
+    }
     
 }
