@@ -389,9 +389,13 @@ body.dark-mode nav a:hover::after {
         font-size: 14px;
     }
     .flex-container {
-        margin: 20px;
+        margin: 20px auto;
         margin-top: 50px;
         padding: 10px;
+        width: 90%;
+    }
+    .f1osa1, .f1osa2 {
+        width: 100%;
     }
     .flex-container2 {
         margin: 0 auto; /* Ensures it's centered horizontally */
@@ -407,10 +411,12 @@ body.dark-mode nav a:hover::after {
     .div1, .div2 {
         margin: 10px; /* Reduce margins to avoid extra spacing */
         padding: 10px;
+        width: 100%;
     }
     .minidiv1, .minidiv2, .minidiv3, .minidiv4 {
+        width: 90%;
         padding: 20px;
-        margin: 10px;
+        margin: 10px auto;
     }
     
 }
