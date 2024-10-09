@@ -91,7 +91,7 @@ h3 {
     align-items: stretch; /* Tämä venyttää osa1 ja osa2 samalle korkeudelle */
     justify-content: space-between;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     max-width: 1600px;
     clear: both;
     margin: 150px;
