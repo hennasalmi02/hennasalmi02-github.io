@@ -380,9 +380,6 @@ body.dark-mode nav a:hover::after {
 
 /* mobiilinäkymä */
 @media (max-width:570px){
-    body {
-        height: 250vh;
-    }
     h1 {
         font-size:45px;
     }
