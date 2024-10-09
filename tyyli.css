@@ -29,7 +29,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: auto;
     height: 300vh;
 }
@@ -79,7 +79,7 @@ h3 {
     justify-content: space-between;
     justify-content: space-around;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     clear: both;
     margin: 150px;
     margin-top: 300px;
@@ -92,7 +92,7 @@ h3 {
     justify-content: space-between;
     justify-content: space-around;
     width: 80%;
-    max-width: 1600px;
+    max-width: 1400px;
     clear: both;
     margin: 150px;
 }
@@ -104,7 +104,7 @@ h3 {
     justify-content: space-between;
     justify-content: space-around;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     clear: both;
     margin: 150px;
 }
@@ -112,7 +112,7 @@ h3 {
 
 .f1osa1 {
     width: 50%;
-    max-width: 1600px;
+    max-width: 1400px;
     padding: 60px;
     padding-left: 0;
     margin: 0;  /* Poistetaan mahdolliset marginaalit */
@@ -120,7 +120,7 @@ h3 {
 
 .f1osa2 {
     width: 50%;
-    max-width: 1600px;
+    max-width: 1400px;
     padding: 60px;
     margin: 0;
     display: flex;
@@ -131,14 +131,14 @@ h3 {
 
 .f2osa1 {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0;  /* Poistetaan mahdolliset marginaalit */
 }
 
 
 .f2osa2 {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     padding: 60px;
     display: flex;
     flex-direction: row;
@@ -169,7 +169,7 @@ body.dark-mode .minidiv1, body.dark-mode .minidiv2, body.dark-mode .minidiv3, bo
 
 .f3osa1 {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     padding-bottom: 60px;
     margin: 0;
     display: flex;
@@ -178,7 +178,7 @@ body.dark-mode .minidiv1, body.dark-mode .minidiv2, body.dark-mode .minidiv3, bo
 
 .f3osa2 {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -207,7 +207,7 @@ p2:hover {
 
 footer {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     text-align: left;
     display: flex; 
     align-items: flex-start; 
@@ -222,7 +222,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    max-width: 1600px;  
+    max-width: 1400px;  
     margin-bottom: 187px;
     position: fixed;
     top: 0;
