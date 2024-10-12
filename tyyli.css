@@ -81,37 +81,9 @@ h3 {
     width: 90%;
     max-width: 1600px;
     clear: both;
-    margin: 200px;
+    margin-bottom: 200px;
     box-sizing: border-box;
 }
-
-.flex-container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch; /* Tämä venyttää osa1 ja osa2 samalle korkeudelle */
-    justify-content: space-between;
-    justify-content: space-around;
-    box-sizing: border-box;
-    width: 90%;
-    max-width: 1600px;
-    clear: both;
-    margin: 200px;
-    box-sizing: border-box;
-}
-
-.flex-container3 {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-between;
-    justify-content: space-around;
-    width: 90%;
-    max-width: 1600px;
-    clear: both;
-    margin: 200px;
-    box-sizing: border-box;
-}
-
 
 .f1osa1 {
     width: 50%;
