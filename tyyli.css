@@ -173,7 +173,7 @@ p2 {
 }
 
 p2:hover {
-    transform: translateY(-10px); /* Moves the element up by 10px */
+    transform: translateY(-10px);
 }
 
 footer {
@@ -211,7 +211,7 @@ nav a {
     text-align: center;
     font-size: 18px;
     border: transparent 2px solid;
-    position: relative; /* Necessary for ::after to work */
+    position: relative;
     &:visited {
         color: inherit;
     }
@@ -229,22 +229,21 @@ nav a::after {
     background-color: #1a1818;
     bottom: 0;
     left: 50%;  /* Start from the center */
-    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;  /* Animate both width and left */
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
 }
 
 nav a:hover::after {
-    width: 100%; /* Full width */
-    left: 0;     /* Shift left to expand in both directions */
+    width: 100%; 
+    left: 0;    
 }
 
 body.dark-mode nav a::after {
-    background-color: #f0f0f0; /* Different underline color for night mode */
+    background-color: #f0f0f0; 
 }
 
-/* Hover effect for Night Mode */
 body.dark-mode nav a:hover::after {
-    width: 100%; /* Full width on hover */
-    left: 0;     /* Shift to left */
+    width: 100%; 
+    left: 0;     
 }
 
 
@@ -266,7 +265,7 @@ body.dark-mode nav a:hover::after {
 }
 
 #theme-icon:hover {
-    color: #ffcc00; /* Highlight color */
+    color: #ffcc00; 
 }
 
 @media (max-width: 1100px){
