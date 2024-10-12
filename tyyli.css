@@ -75,48 +75,41 @@ h3 {
 .flex-container {
     display: flex;
     flex-direction: row;
-    align-items: stretch; /* Tämä venyttää osa1 ja osa2 samalle korkeudelle */
-    justify-content: space-between;
     justify-content: space-around;
     width: 90%;
     max-width: 1600px;
     clear: both;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
     box-sizing: border-box;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .f1osa1 {
-    width: 50%;
-    max-width: 1600px;
-    padding: 60px;
-    padding-left: 0;
-    margin: 0;  /* Poistetaan mahdolliset marginaalit */
+    flex: 1;
 }
 
 .f1osa2 {
-    width: 50%;
-    max-width: 1600px;
-    padding: 60px;
-    margin: 0;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Keskittää p1 ja h1 pystysuunnassa */
+    justify-content: center; 
     text-align: center;
 }
 
 .f2osa1 {
     width: 100%;
-    max-width: 1600px;
-    margin: 0;  /* Poistetaan mahdolliset marginaalit */
+    margin: 0;  
+    padding-bottom: 50px;
 }
-
 
 .f2osa2 {
     width: 100%;
-    max-width: 1600px;
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Keskittää p1 ja h1 pystysuunnassa */
+    justify-content: center;
     align-items: stretch;
     text-align: center;
     margin: 0;
@@ -148,8 +141,7 @@ body.dark-mode .minidiv1, body.dark-mode .minidiv2, body.dark-mode .minidiv3, bo
 
 .f3osa1 {
     width: 100%;
-    max-width: 1600px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -157,7 +149,6 @@ body.dark-mode .minidiv1, body.dark-mode .minidiv2, body.dark-mode .minidiv3, bo
 
 .f3osa2 {
     width: 100%;
-    max-width: 1600px;
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -280,7 +271,7 @@ body.dark-mode nav a:hover::after {
 
 @media (max-width: 1100px){
     h1 {
-        font-size: 80px;
+        font-size: 75px;
     }
     .flex-container, .flex-container2, .flex-container3 {
         flex-wrap: wrap;
@@ -290,25 +281,24 @@ body.dark-mode nav a:hover::after {
 
 /* tabletti */
 @media (max-width:800px){
-    h1 {font-size:65px;
+    h1 {font-size:60px;
     }
     h2 {
-        font-size: 55px;
-    }
-    h3 {
         font-size: 40px;
     }
-    p1, p2, p3 {
-        font-size: 22px;
+    h3 {
+        font-size: 25px;
     }
-    .kuva1 {max-width: 550px;
+    p1, p2, p3 {
+        font-size: 20px;
+    }
+    .kuva1 {max-width: 300px;
     }
     nav {
         justify-content: center;
     }
     nav a {
         font-size: 16px;
-        max-width: 75px;
     }
     footer {
         font-size: 16px;
@@ -320,16 +310,8 @@ body.dark-mode nav a:hover::after {
     .flex-container {
         flex-direction: column;
         align-items: center;
-    }
-    .flex-container2 {
-        flex-direction: column;
-    }
-    .flex-container, .flex-container2, .flex-container3 {
         width: 95%;
         margin: 0 auto;
-    }
-    .f1osa1 {
-        padding: 60px;
     }
     .f2osa2 {
         flex-direction: column;
@@ -351,23 +333,22 @@ body.dark-mode nav a:hover::after {
         font-size:45px;
     }
     h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
     h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
     p1, p2, p3 {
         font-size: 17px;
     }
     .kuva1 {
-        max-width: 450px;
+        max-width: 200px;
     }
     nav {
         justify-content: center;
     }
     nav a {
         font-size: 14px;
-        max-width: 60px;
     }
     footer {
         font-size: 14px;
@@ -375,7 +356,7 @@ body.dark-mode nav a:hover::after {
     p {
         font-size: 14px;
     }
-    .flex-container, .flex-container2, .flex-container3 {
+    .flex-container {
         width: 100%;
         padding: 0 10px;
         margin: 0 auto;
