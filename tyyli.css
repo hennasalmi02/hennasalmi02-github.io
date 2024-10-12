@@ -226,7 +226,6 @@ footer {
 }
 
 nav {
-    overflow: hidden;
     clear: both;
     display: flex;
     justify-content: flex-end;
